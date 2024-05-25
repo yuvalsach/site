@@ -14,16 +14,16 @@
 					</video>
 					
 						
-						<div id="content" style="position:absolute; bottom:16px;">
+						<div style="position:absolute; bottom:16px;">
 							
-							<div class="titles" style="width:30vw; margin:0px 0px 0px 10%;">
+							<div class="titleHeader" style="color:#fff">
 								Hi, I'm Yuval
 							</div>
-							<div class="subtitles" style="margin-top:20px; margin-bottom:32px; width:30vw; padding-left:0px; margin:0px 0px 0px 10%;">
+							<div class="subtitleHeader">
 					A Product Design Leader from Tel Aviv
 							</div>
 				
-							<div style="width:100vw; text-align: center;"> <img src="assets/scroll.svg" alt="Scroll to see more">
+							<div style="width:100vw; text-align: center; margin-top:32px;"> <img class="scrolldesktop" src="assets/scroll.svg" alt="Scroll to see more"> <img class="scrollmobile" src="assets/scrollmobile.svg" alt="Scroll to see more">
 							</div>
 				
 						</div>	
@@ -47,10 +47,10 @@ letter-spacing:2px;
 								CONTACT
 								</a>
 								<a href="http://w3schools.com">
-									<img src="assets/Linkedin.svg">
+									<img src="assets/linkedin.svg">
 								</a>
 								<a href="http://w3schools.com">
-									<img src="assets/Instagram.svg">
+									<img src="assets/instagram.svg">
 								</a>	
 
 								
@@ -143,7 +143,7 @@ html {
 
 #container {
 	position:relative;
-	background-color: red;
+	background-color: fff;
 }
 
 html, body {
@@ -175,6 +175,9 @@ html, body {
 
 #frame1 {
 	background-image: url('assets/Frame1@2x.png'); 
+	    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
 	background-color:#FCCC04;
 }
 
@@ -182,11 +185,17 @@ html, body {
 	background-image: url('assets/Frame2@2x.png'); 
 	background-color:#18130D;
 	color:#fff;
+	    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
 }
 
 #frame3 {
 	background-image: url('assets/Frame3@2x.png'); 
 	background-color:#fff;
+	    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
 }
 
 #frame4{
@@ -203,7 +212,8 @@ body {
 
 
 .content {
-	width:30vw; 
+	widths:30vw; 
+	width:420px;
 	margin:auto 10%;
 	padding: 70px 0px;
 	background-color: 
@@ -273,8 +283,28 @@ body {
 	margin-top:20px; 
 	margin-bottom:32px;
 	-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;	 
+   -moz-osx-font-smoothing: grayscale;	 
 }	
+
+.subtitleHeader{
+margin-top:20px; 
+width:420px; 
+margin-bottom:32px; 
+padding-left:0px; 
+margin:0px 0px 0px 10%; 
+color:#fff; 
+font-size:36px;
+font-family:'Open Sans';
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;	
+}
+
+.titleHeader{
+margin:0px 0px 0px 10%;
+font-size:72px; 
+font-family:Proxima Nova; 
+font-weight:800;
+}
 
 .paragraph{
 	font-size:18px;
@@ -285,6 +315,17 @@ body {
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;	 
 }	
+
+
+.scrollmobile {
+visibility: hidden;
+display: none;
+}
+
+.scrolldesktop {
+	visibility: visible;
+	display: inline;
+}
 
 body .strips {
 
@@ -328,6 +369,16 @@ body .strips section {
 	display: none;
 	}
 	
+	.scrollmobile {
+	visibility: visible;
+	display: inline;
+	}
+	
+	.scrolldesktop {
+	visibility: hidden;
+	display: none;
+	}
+	
 	.paragraph{
 	font-size:16px;
 	font-family:'Open Sans';
@@ -352,6 +403,11 @@ body .strips section {
 	font-family:Proxima Nova; 
 	font-weight:800;
 	}
+	
+	.titleHeader{
+	margin-left:24px;
+	font-size:48px; 
+	}
 
 	.titlemyself{
 		font-size:32px; 
@@ -365,6 +421,12 @@ body .strips section {
 	margin-top:20px; 
 	margin-bottom:32px;
 	}	
+	
+	.subtitleHeader{
+	font-size:24px;
+	width:320px;
+	margin-left:24px;
+	}
 	
 	#frame1 
 	{
