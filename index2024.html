@@ -5,6 +5,9 @@
           href="https://fonts.googleapis.com/css?family=Open Sans">
 </head>
 <body>
+<link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+<link rel="stylesheet" type="text/css" href="fonts/fonts.min.css" />
+
 	<div class="strips" style="overflow-x: hidden; background-color:red">
 	  <section>
 				<div id="container">
@@ -175,32 +178,42 @@ html, body {
 
 #frame1 {
 	background-image: url('assets/Frame1@2x.png'); 
-	    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right top;
+	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right top;
 	background-color:#FCCC04;
+	z-index: 1;
+	position:relative;
 }
 
 #frame2 {
 	background-image: url('assets/Frame2@2x.png'); 
 	background-color:#18130D;
 	color:#fff;
-	    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right top;
+	background-repeat: no-repeat;
+   background-position: left top;
+   background-size: cover, contain;
+
+	position:relative;
+	z-index:2;
+
 }
 
 #frame3 {
 	background-image: url('assets/Frame3@2x.png'); 
 	background-color:#fff;
-	    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right top;
+	background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left top;
+	position:relative;
+	z-index:3;
 }
 
 #frame4{
 	background-image: url('assets/Frame5@2x.png'); 
 	background-color:#fff;
+	position:relative;
+	z-index:4;
 }
 
 
@@ -446,6 +459,8 @@ body .strips section {
 	background-image: url('assets/Frame3Mobile@2x.png');
 	background-size: contain;
 background-repeat: no-repeat;
+   background-position: right top;
+
 	}
 	
 	body {
