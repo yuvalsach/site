@@ -35,7 +35,7 @@
 						<div style="position:absolute; width:100vw; top:50px; text-align:right;">
 							<div style="display: flex; justify-content:space-between; max-width:220px; margin-left:auto; margin-right:24px">
 											
-								<a href="mailto:yuval.sach@gmail.com" style="  color: white;
+								<a href="mailto:yuval.sach@gmail.com" style="color: white;
 padding: 6px 16px;
 text-align: center;
 text-decoration: none;
@@ -47,14 +47,15 @@ border-radius:2px;
 font-family:'Open Sans';
 font-weight:500;
 font-size:14px;
-letter-spacing:2px;
-">
+letter-spacing:2px;"
+
+class="headerLink">
 								CONTACT
 								</a>
-								<a href="https://www.linkedin.com/in/yuvalsach/" target="_blank">
+								<a href="https://www.linkedin.com/in/yuvalsach/" target="_blank" class="headerLink">
 									<img src="assets/linkedin.svg">
 								</a>
-								<a href="https://www.instagram.com/yuvalsach/" target="_blank">
+								<a href="https://www.instagram.com/yuvalsach/" target="_blank" class="headerLink">
 									<img src="assets/instagram.svg">
 								</a>	
 
@@ -72,9 +73,11 @@ letter-spacing:2px;
 				<div class="subtitles">
 					How I led a set of viral features that topped the 					app srote
 				</div>
-				<div class="button1">
-				OPEN
-				</div>
+				<a href="photos.html" style="text-decoration:none;">
+					<div class="button" style="color:#E51111">
+					OPEN
+					</div>
+				</a>
 			</div>
 		</section>
 	  <section id="frame2"><div class="content">
@@ -84,10 +87,12 @@ letter-spacing:2px;
 				<div class="subtitles">
 					How a data-driven ux process helped a tricky revamp project be succesful
 				</div>
-				<div class="button1">
-				OPEN
-				</div>
-			</div>
+				<a href="tree.html" style="text-decoration:none;">
+					<div class="button" style="color:#FECF04">
+					OPEN
+					</div>
+				</a>			
+		</div>
 	</section>
 	<section id="frame3"><div class="content">
 				<div class="titles">
@@ -96,9 +101,11 @@ letter-spacing:2px;
 				<div class="subtitles">
 					How I transformed a small rebrand into a full Design System development.
 				</div>
-				<div class="button">
-				OPEN
-				</div>
+				<a href="designsystem.html" style="text-decoration:none;">
+					<div class="button">
+					OPEN
+					</div>
+				</a>
 			</div>
 	</section>
 	<section id="frame4"><div class="contentmyself" style=" padding:0px; position:relative;">
@@ -107,13 +114,9 @@ A little bit about myself...</div>
 					<div class="paragraph">
 					At 16, on my way back home from school, I got a phone call. On the other end was the CEO of Israel’s top design firm, to whom I sent my portfolio a few days earlier. To his offer that I join the firm, I replied that I should probably finish high school first, but a year later, we met again, and my professional journey began. <br><br>
 
-Being a one-stop-shop, I dabbled in everything, from designing large finance systems, to corporate websites, Flash games, and many more, combining my love of design, animation and code.  <br><br>
+Being a one-stop shop, I dabbled in everything, from designing large finance systems, to corporate websites, Flash games, and many more, combining my love of design, animation and code.  <br><br>
 
-A few years later, after working with international clients such as Microsoft, Orange, Nokia, MSD and many more, I moved into tech.
-
-
-
-
+A few years later, after working with international clients such as Microsoft, Nokia, MSD, Orange and many more, I moved into tech.
 					</div>
 				</div>
 			<div class="personalphotos" style="width:24px; padding-left:120px; position:relative;"><img src="assets/Images@2x.png" style="max-width:424px; position:absolute; bottom:0;"></div>
@@ -123,10 +126,10 @@ A few years later, after working with international clients such as Microsoft, O
 					After consulting for a number of early stage startups, I joined MyHeritage, one of Israel’s leading startups. As the company grew into a 600 employee organization, eventually being acquired, my role evolved into my current position as Director of UX, managing a large group of UX, Product and Marketing Designers. Revamping the entire product, introducing new data-driven processes, user-centered roadmaps, scaling up the team, taking the app to the 1st place on the American AppStore, creating the company’s first Design System, have been some of the many initiatives I’ve led in the company. <br><br>
 
 Oh, and I love to draw and animate stuff, especially quirky architecture from around the globe.
-<br><br><b>
-Feel free to drop me a line at 								<a href="http://w3schools.com">
-yuval.sach@gmail.com</a></b>
-
+<br><br>
+Feel free to drop me a line at 								<a href="mailto:yuval.sach@gmail.com" class="emaillink"><b>
+yuval.sach@gmail.com</b>
+</a>
 
 					</div>
 				</div>
@@ -239,6 +242,19 @@ body {
 	
 }
 
+.emaillink {
+	color:#000;   
+	text-decoration: none; 
+	font-weight:800; 
+	cursor:pointer;	
+		transition: 0.3s;
+
+}
+
+.emaillink:hover{
+	color:#888;
+	}
+
 .contentmyself {
 	width:43vw; 
 	margin:100px 0px 100px 10%;
@@ -246,6 +262,15 @@ body {
 	
 }
 
+
+.headerLink{
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.headerLink:hover{
+	opacity:0.7;
+}
 
 
 
@@ -262,25 +287,12 @@ body {
 	letter-spacing: 2px;
 	font-weight: 800;
 	transition: 0.3s;
+	text-decoration: none; 
+
 }	
 
-.button1 {
-	cursor: pointer;
-	border-style: solid; 
-	border-width: 2px;
-	color: #E51111;
-	width:140px;
-	text-align:center;
-	padding: 12px 0px;
-	font-size:18px;
-	font-family:'Open Sans';
-	letter-spacing: 2px;
-	font-weight: 800;
-	transition: 0.3s;
-}
-
-.button1:hover {
-	color: 000
+.button:hover {
+	opacity: 0.7;
 }
 
 
@@ -403,14 +415,15 @@ body .strips section {
 	.paragraph{
 	font-size:15px;
 	line-height:30px;
+	margin-top:0px;
 	}
+	
 	.contentmyself {
    width: 800px; 
 	margin-left: 24px;
 	margin-bottom:0px;
 	margin-right:24px;
 	margin-top:24px;
-	padding-bottom: 32px;
 	}
 	
 	body .strips section {
