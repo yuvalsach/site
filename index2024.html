@@ -10,12 +10,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,800|Opensans:400,800">
 
 
-	<div class="strips" style="overflow-x: hidden;">
+	<div class="strips" style="overflows-x: hidden;">
 	  <section>
 				<div id="container">
 					
-					<video id="backgroundVideo" autoplay loop muted poster="assets/Header@2x.png">
-  						<source src="assets/HeaderVideos.mp4" type="video/mp4">
+					<video id="backgroundVideo" autoplay loop muted poster="assets/Header@2x.png" style="display:block; margin-left:50vw;transform: translate(-50%);">
+  						<source src="assets/HeaderVideo.mp4" type="video/mp4">
 					</video>
 					
 						
@@ -155,7 +155,7 @@ html {
 
 #container {
 	position:relative;
-	background-color: fff;
+	background-color: #fff;
 }
 
 html, body {
@@ -166,8 +166,6 @@ html, body {
 	position:absolute;
 	background-size:contain;
 	height:100vh;
-  left: 0;
-  right: 0;
   top: 0;
   bottom: 0;
 
@@ -345,6 +343,7 @@ font-family:'Open Sans';
 	line-height:36px;
 	margin-top:20px; 
 	margin-bottom:32px;
+	max-width:720px;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;	 
 }	
