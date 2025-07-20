@@ -1,0 +1,1346 @@
+.tree-autolayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.tree-autolayout .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 668px;
+  padding: 17px 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  box-shadow: var(--close);
+}
+
+.tree-autolayout .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: 4.40px;
+  line-height: normal;
+}
+
+.tree-autolayout .top {
+  display: flex;
+  align-items: flex-start;
+  gap: 74px;
+  padding: 40px 24px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  mix-blend-mode: multiply;
+}
+
+.tree-autolayout .vector {
+  position: relative;
+  width: 132px;
+  height: 24px;
+}
+
+.tree-autolayout .div {
+  align-items: center;
+  padding: 12px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .header-2 {
+  align-items: flex-start;
+  gap: 66px;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.tree-autolayout .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .treeheaderbg {
+  position: relative;
+  width: 720px;
+  height: 613px;
+  margin-left: -16.00px;
+
+}
+
+.tree-autolayout .summary {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-items: flex-start;
+  gap: 90px;
+  padding: 0px 72px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .left {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-3 {
+  position: relative;
+  width: 367px;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .bullets {
+  display: flex;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.tree-autolayout .bullet {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.tree-autolayout .bullet-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .div-3 {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+.tree-autolayout .right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  gap: 24px;
+
+}
+
+.tree-autolayout .KP-is {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .div-4 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.tree-autolayout .arrows {
+  position: relative;
+  flex: 0 0 auto;
+  //flex-grow: 1;
+  height:108px;
+  width:24px;
+}
+
+.tree-autolayout .results {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.tree-autolayout .text-wrapper-6 {
+  position: relative;
+  width: 263px;
+  margin-top: -1.00px;
+  margin-right: -115.50px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .separator {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background-color: #0000001a;
+}
+
+.tree-autolayout .UX-research {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 80px 40px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 68px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .frame {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  align-self: stretch;
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.tree-autolayout .div-5 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.tree-autolayout .span {
+  letter-spacing: 0.01px;
+}
+
+.tree-autolayout .text-wrapper-8 {
+  letter-spacing: 0.06px;
+}
+
+.tree-autolayout .text-wrapper-9 {
+  letter-spacing: 0;
+}
+
+.tree-autolayout .text-wrapper-10 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.tree-autolayout .text-wrapper-11 {
+  letter-spacing: 0.03px;
+}
+
+.tree-autolayout .text-wrapper-12 {
+  letter-spacing: 0.04px;
+}
+
+.tree-autolayout .text-wrapper-13 {
+  letter-spacing: 0.05px;
+}
+
+.tree-autolayout .bitools {
+  position: relative;
+  width: 525px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.tree-autolayout .text-wrapper-14 {
+  letter-spacing: 0.07px;
+}
+
+.tree-autolayout .personas {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: center;
+  gap: 21px;
+  padding: 80px 40px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .element {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffcb9a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .title {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 17px 0px 15px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffcb9a33;
+}
+
+.tree-autolayout .content-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px 48px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-15 {
+  position: relative;
+  width: 272px;
+  margin-top: -1.00px;
+  margin-right: -2.00px;
+  opacity: 0.5;
+  font-family: "Helvetica Neue-MediumItalic", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.tree-autolayout .bullets-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .bullet-3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .ellipse-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .div-6 {
+  position: relative;
+  width: 3px;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 1.5px;
+}
+
+.tree-autolayout .text-wrapper-16 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.tree-autolayout .persona-x {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 434px;
+  object-fit: cover;
+}
+
+.tree-autolayout .element-2 {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #71bbbb1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .div-wrapper {
+  background-color: #71bbbb33;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 17px 0px 15px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .element-3 {
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #c4c4c41a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .title-2 {
+  background-color: #c4c4c433;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 17px 0px 15px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .pie-matches {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-end;
+  gap: 40px;
+  padding: 80px 40px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .top-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .graph {
+  position: relative;
+  width: 192px;
+  height: 192px;
+  object-fit: cover;
+}
+
+.tree-autolayout .we-love-adding {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .text-wrapper-17 {
+  color: #000000;
+  letter-spacing: 0.01px;
+}
+
+.tree-autolayout .text-wrapper-18 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #d9a94a;
+  letter-spacing: 0.01px;
+}
+
+.tree-autolayout .text-wrapper-19 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #70ccb7;
+  letter-spacing: 0.01px;
+}
+
+.tree-autolayout .bottom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .treeillustration {
+  position: relative;
+  width: 192px;
+  height: 195px;
+  object-fit: cover;
+}
+
+.tree-autolayout .text-wrapper-20 {
+  position: relative;
+  flex: 1;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .points {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 120px;
+  padding: 80px 40px 64px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .content-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .div-7 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.tree-autolayout .text-wrapper-21 {
+  letter-spacing: -0.05px;
+}
+
+.tree-autolayout .text-wrapper-22 {
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: -0.05px;
+}
+
+.tree-autolayout .content-5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 21px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .left-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.tree-autolayout .oldtree {
+  position: relative;
+  width: 394px;
+  height: 236px;
+  object-fit: cover;
+}
+
+.tree-autolayout .text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica Neue-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #00000066;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.tree-autolayout .bullets-3 {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.tree-autolayout .bullet-4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .bullet-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-24 {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .bullet-5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .ellipse {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.tree-autolayout .users-were-not-sure {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  line-height: 52px;
+}
+
+.tree-autolayout .text-wrapper-25 {
+  letter-spacing: 0.32px;
+}
+
+.tree-autolayout .panel {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 67px;
+  padding: 40px 32px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 0px 0px 0px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-26 {
+  position: relative;
+  width: 463px;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .content-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: -536.00px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .left-3 {
+  display: flex;
+  width: 342px;
+  align-items: flex-start;
+  gap: 232px;
+  padding: 30px 0px 0px;
+  flex-direction: column;
+  position: relative;
+}
+
+.tree-autolayout .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 52px;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 87px;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 33px;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .frame-5 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 97px;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 39px;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .bullet-6 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 0px 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-27 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.tree-autolayout .rectangle {
+  position: relative;
+  width: 290px;
+  height: 1px;
+  //border: 1px solid;
+  border-color: #d2aea4;
+}
+
+.tree-autolayout .panel-x {
+  position: relative;
+  //width: 378px;
+  height: 754px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.tree-autolayout .solution {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 47px;
+  padding: 80px 40px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-4 {
+  position: relative;
+  width: 560px;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .text-wrapper-28 {
+  font-weight: 700;
+}
+
+.tree-autolayout .text-wrapper-29 {
+  font-family: "Helvetica Neue-Regular", Helvetica;
+}
+
+.tree-autolayout .image {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 422px;
+  margin-bottom: -40.00px;
+  margin-left: -20.00px;
+  margin-right: -40.00px;
+  object-fit: cover;
+}
+
+.tree-autolayout .metrics {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 80px 24px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .content-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .treevideo {
+  box-shadow: 10px 10px 30px 0px rgba(94, 105, 114, 0.15);
+  width:100%;
+  //height:200px;
+  align-self: center;
+}
+
+.tree-autolayout .we-set-all {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .circles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .circle-x {
+  position: relative;
+  width: 150px;
+  height: 164px;
+  object-fit: cover;
+}
+
+.tree-autolayout .views {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: flex-start;
+  gap: 81px;
+  padding: 80px 40px 0px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .content-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .div-8 {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-30 {
+  position: relative;
+  width: 270px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .img {
+  position: relative;
+  width: 60%;
+  //height: 283px;
+  margin-right: -40.00px;
+  object-fit: cover;
+}
+
+.tree-autolayout .as-users-were-now {
+  position: relative;
+  width: 274px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.05px;
+  line-height: 28px;
+}
+
+.tree-autolayout .fan {
+  position: relative;
+  width: 60%;
+  //height: 283px;
+  margin-right: -40.00px;
+  object-fit: cover;
+}
+
+.tree-autolayout .summary-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: center;
+  gap: 24px;
+  padding: 80px 40px 120px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-31 {
+  letter-spacing: -0.02px;
+}
+
+.tree-autolayout .text-wrapper-32 {
+  letter-spacing: 0.02px;
+}
+
+.tree-autolayout .text-wrapper-33 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .personas-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .element-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffcb9a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .content-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+  padding: 0px 30px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-34 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  opacity: 0.8;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .element-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px 0px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #71bbbb1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .element-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px 0px 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #c4c4c41a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tree-autolayout .closer {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  align-items: center;
+  gap: 36px;
+  padding: 0px 40px 120px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.tree-autolayout .text-wrapper-35 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.tree-autolayout .text-wrapper-36 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.tree-autolayout .stories {
+  position: relative;
+  width: 768px;
+  height: 341px;
+  margin-left: -40.00px;
+  margin-right: -40.00px;
+  object-fit: cover;
+}
+
+.tree-autolayout .text-wrapper-37 {
+  position: relative;
+  width: 456px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
