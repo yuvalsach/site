@@ -1,0 +1,3510 @@
+/* Base styles - mobile first */
+body {
+  margin: 0px;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+
+}
+
+
+
+body.design-system {
+  /* Paste your mobile CSS here, exactly as you gave */
+  /* Example: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+
+#backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  //z-index: -1;
+}
+
+a:visited {
+      color: #000;
+    }
+
+    a:link {
+      color: #000;
+    } 
+
+
+
+@media (max-width: 767px) {
+
+
+  /* Hide tablet and desktop content on mobile */
+  .tablet-only,
+  .desktop-only {
+    display: none;
+  }
+
+  /* Your mobile CSS styles go here */
+
+  .design-system {
+    display: flex;
+    flex-direction: column;
+    //width: 365px;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+
+#toolsvideo {
+    width: 100%;
+  }
+
+  .design-system .kitvideo {
+    width: 100%;
+  }
+
+  .design-system .upgrade {
+    display: inline-flex;
+    align-items: center;
+    //gap: 81px;
+    position: relative;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .design-system .links {
+    display: none;
+  }
+
+  .design-system .header-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+     }
+
+  .design-system .technical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0px 16px 120px;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+  }
+
+   .design-system .genealogy {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 120px;
+      position: relative;
+    }
+  
+  .design-system .downarrows {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+
+  .design-system .dna_health_imgs {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      flex-direction: column;
+      padding: 0px 16px;
+    }
+
+  .design-system .dna_health_img {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+  }
+
+
+  .design-system .reuse {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 16px 80px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //gap: 668px;
+      padding: 16px 0px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #ffffff;
+      box-shadow: var(--close);
+      margin: 0px;
+    }
+
+    .design-system .content-5 {
+      width:100%;
+    } 
+
+  .design-system .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 4.40px;
+    line-height: normal;
+  }
+
+  .design-system .div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .content {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text {
+    display: flex;
+    flex-direction: column;
+    //max-width: 455px;
+    align-items: flex-start;
+    //gap: 40px;
+    padding: 40px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .design-system .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    //gap: 9px;
+    //padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .logo {
+    position: relative;
+    width: 130px;
+    height: 24px;
+    padding: 0px 16px;
+  }
+
+  .design-system .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 52px;
+    padding: 0px 16px;
+
+  }
+
+  .design-system .header-image-mobile {
+    display: flex;
+    height: 388px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+
+  .design-system .headerimg {
+    display:none;
+  }
+
+  .design-system .mobileheaderimgbg {
+      width: 100%;
+      margin-top:40px;
+      margin-bottom:40px;
+  }
+
+
+  .design-system .headerimgbg {
+    width:100%;
+  }
+
+  
+
+  .design-system .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .in-myheritage {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .design-system .details-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 16px 80px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .content-2 {
+    align-items: flex-start;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .separator {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: #e6d1cd;
+  }
+
+  .design-system .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .design-system .in-my-position-at {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.27px;
+    line-height: 28px;
+  }
+
+  .design-system .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.02px;
+    line-height: 28px;
+  }
+
+  .design-system .div-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+    margin-top: 40px;
+    //margin-bottom:120px;
+  }
+
+  .design-system .div-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 0px 24px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .div-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 16px;
+    position: relative;
+    //align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    max-width: 400px;
+  }
+
+  .design-system .div-6 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    gap: 30px;
+    padding: 0px 16px;
+  }
+
+  .design-system .span {
+    letter-spacing: 0.03px;
+  }
+
+  .design-system .text-wrapper-4 {
+    letter-spacing: 0.01px;
+    padding: 0px 16px;
+    //width: fit-content;
+    //text-align: center;
+  }
+
+  .design-system .text-wrapper-5 {
+      position: relative;
+      width: 308px;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 28px;
+      width: 100%;
+  }
+
+  .design-system .text-wrapper-6 {
+    letter-spacing: 0.05px;
+  }
+
+  .design-system .kits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 0px 0px 120px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .div-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    gap:40px;
+  }
+
+  .design-system .img {
+    position: relative;
+    width: 90%;
+    //height: 260px;
+    object-fit: cover;
+    border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+  }
+
+  .design-system .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Helvetica Neue-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #00000099;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+
+   .design-system .arrow {
+          position: relative;
+          width: 50px;
+          height: 20px;
+          rotate: 90deg;
+        }
+
+  .design-system .arrowdownleft {
+    display: none;
+  }
+
+  .design-system .arrowdownright {
+    display: none;
+  }
+
+  .design-system .arrowdown {
+    position: relative;
+    width: 20px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .design-system .text-wrapper-8 {
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 28px;
+      width: 100%;  }
+
+  .design-system .text-wrapper-9 {
+    letter-spacing: 0;
+  }
+
+  .design-system .text-wrapper-10 {
+    letter-spacing: 0.02px;
+  }
+
+  .design-system .img-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 16px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .div-8 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .design-system .text-wrapper-11 {
+    letter-spacing: 0.06px;
+  }
+
+  .design-system .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .design-system .lps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //gap: 30px;
+    padding: 0px 16px 120px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text-wrapper-13 {
+    position: relative;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .design-system .screens {
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+
+      .design-system .top-4 {
+
+      align-items: center;
+      }
+
+  .design-system .element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .design-system .text-wrapper-14 {
+      position: relative;
+      width: fit-content;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 28px;
+      width: 100%;
+      margin-bottom: 120px;
+    }
+
+  .design-system .oldlp-x {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+  }
+
+  .design-system .element-2 {
+    flex-direction: column;
+    //height: 928px;
+    align-items: center;
+    gap: 10px;
+    //flex: 1;
+    //flex-grow: 1;
+    display: flex;
+    position: relative;
+    width: 30%;
+  }
+
+  .design-system .div-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0px 16px;
+  }
+
+  .design-system .text-wrapper-15 {
+    position: relative;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-bottom:40px;
+  }
+
+  .design-system .iconography {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .element-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .design-system .oldicons-x {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    //height: 409px;
+    object-fit: cover;
+    border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+  }
+
+  .design-system .story {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 16px 80px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .top-2 {
+    gap: 40px;
+    padding: 0px 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text-wrapper-16 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #000000;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 0.6;
+    letter-spacing: 0.3;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .design-system .text-wrapper-17 {
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .design-system .text-wrapper-18 {
+      position: relative;
+      width: fit-content;
+      font-weight: 700;
+      color: #000000;
+      font-size: 32px;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 32px;
+      white-space: nowrap;  
+      width:100%;
+      padding-top:40px;
+  }
+
+  .design-system .text-wrapper-19 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;  
+  }
+
+      .design-system .lps-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 84px;
+        padding: 80px 0px 80px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .content-3 {
+        align-items: center;
+        //gap: 30px;
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .div-10 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        //display: flex;
+        position: relative;
+        font-weight: 400;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0.05px;
+        line-height: 28px;
+      }
+  
+      .design-system .element-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .newlp-x {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        //height: 240px;
+        object-fit: cover;
+        border: 1px solid;
+        border-color: #f0f0f0;
+        border-radius: 8px;
+      }
+  
+      .design-system .element-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 11px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .icons {
+        padding: 0px 16px 120px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //gap: 30px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-wrapper-20 {
+        position: relative;
+        align-self: stretch;
+        margin-top: -1.00px;
+        font-family: "Helvetica Neue-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 28px;
+      }
+  
+      .design-system .screens-2 {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 12px;
+        //padding: 0px 24px;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        display: flex;
+        position: relative;
+      }
+  
+      .design-system .icons-x {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        //height: 410px;
+        object-fit: cover;
+        border: 1px solid;
+        border-color: #f0f0f0;
+        border-radius: 8px;
+      }
+  
+      .design-system .text-wrapper-21 {
+        position: relative;
+        width: 560px;
+        margin-top: -1.00px;
+        margin-left: -113.50px;
+        margin-right: -113.50px;
+        font-family: "Helvetica Neue-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 28px;
+      }
+  
+      .design-system .screens-3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        display: flex;
+        position: relative;
+        padding-top: 80px;
+      }
+  
+      .design-system .illustrations-x {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        //height: 530px;
+        object-fit: cover;
+        border: 1px solid;
+        border-color: #f0f0f0;
+        border-radius: 8px;
+      }
+  
+      .design-system .animation {
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        align-items: center;
+        gap: 40px;
+        padding: 0px 0px 160px;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .as-these-wrapper {
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px 16px;
+        display: flex;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .as-these {
+        position: relative;
+        flex: 1;
+        margin-top: -1.00px;
+        font-family: "Helvetica Neue-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 18px;
+        line-height: 28px;
+      }
+  
+      .design-system .text-wrapper-22 {
+        letter-spacing: 0.08px;
+      }
+  
+      .design-system .DNA-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        background-color: #f3f1fb;
+      }
+  
+      .design-system .DNA {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        //height: 249px;
+        object-fit: cover;
+      }
+  
+      .design-system .analogical {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 0px 0px 120px;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .top-3 {
+        gap: 40px;
+        padding: 0px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .content-4 {
+        align-items: center;
+        gap: 37px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        display: flex;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .collages {
+        position: relative;
+        align-self: stretch;
+        width: 90%;
+        //height: 154.37px;
+        object-fit: cover;
+        margin:auto;
+        display: block;
+        margin-bottom:80px;
+      }
+  
+      .design-system .img-3 {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        //height: 275.25px;
+        object-fit: cover;
+        max-width:765px;
+      }
+  
+      .design-system .next {
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        align-items: center;
+        gap: 40px;
+        padding: 0px 0px 80px;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 0px 16px;
+        display: flex;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-wrapper-23 {
+        position: relative;
+        align-self: stretch;
+        margin-top: -1.00px;
+        font-family: "Helvetica Neue-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 38px;
+        letter-spacing: 0;
+        line-height: 28px;
+      }
+  
+      .design-system .text-wrapper-24 {
+        position: relative;
+        align-self: stretch;
+        font-weight: 400;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0.05px;
+        line-height: 28px;
+        padding-top:40px;
+      }
+  
+      .design-system .div-11 {
+        align-items: center;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .apps {
+        display: flex;
+        flex-direction: column;
+        //align-items: flex-start;
+        gap: 25px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .figma {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        height: 132.36px;
+      }
+  
+      .design-system .storybook {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        height: 204.87px;
+      }
+  
+      .design-system .text-wrapper-25 {
+        position: relative;
+        align-self: stretch;
+        font-family: "Helvetica Neue-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 28px;
+        text-decoration: underline;
+      }
+  
+      .design-system .group {
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        height: 204.44px;
+      }
+  
+      .design-system .closure {
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        align-items: center;
+        gap: 24px;
+        padding: 0px 16px 120px;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-4 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        display: flex;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+  
+      .design-system .text-wrapper-26 {
+        letter-spacing: 0.01px;
+        text-decoration: underline;
+      }  
+  }
+
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Show tablet content, hide others */
+  .mobile-only,
+  .desktop-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: block;
+  }
+
+   .design-system .kitvideo {
+    width: 100%;
+  }
+
+   .design-system .toolsvideo {
+    padding-top:16px;
+    width: 100%;
+  }
+
+  /* Paste tablet CSS here or override styles as needed */
+  /* Example tablet override */
+    .design-system {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      background-color: #ffffff;
+      overflow: hidden;
+    }
+  
+    .design-system .links {
+      display: none;
+    }
+
+     .design-system .arrow {
+          position: relative;
+          width: 50px;
+          height: 20px;
+        }
+
+      .design-system .arrowdown {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin: 0px;
+     }
+
+     .design-system .arrowdownleft {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin: 0px;
+     }
+
+    .design-system .arrowdownright {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin: 0px;
+     }
+
+    .design-system .dna_health_img {
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      object-fit: cover;
+      width: 32%;
+      border: 1px solid;
+      border-color: #f0f0f0;
+      border-radius: 8px;
+    }
+
+     .design-system .downarrows {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      gap:32%;
+    }
+
+    .design-system .text-4 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        display: flex;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+        padding: 0px 24px;
+      }
+
+    .design-system .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 17px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #ffffff;
+      box-shadow: var(--close);
+      z-index: 1;
+    }
+  
+    .design-system .text-wrapper {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 22px;
+      letter-spacing: 4.40px;
+      line-height: normal;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .design-system .div {
+      display: flex;
+      flex-direction: column;
+      max-width: 1140px;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content {
+      display: flex;
+      align-items: flex-start;
+      padding: 0px 0px 0px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text {
+      display: flex;
+      flex-direction: column;
+      max-width: 393px;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 80px 0px 40px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      z-index: 1;
+
+    }
+  
+    .design-system .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 9px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .logo {
+      position: relative;
+      width: 130px;
+      height: 24px;
+    }
+  
+    .design-system .text-wrapper-2 {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0;
+      line-height: 52px;
+    }
+  
+    .design-system .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .in-myheritage {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .img {
+      display: flex;
+      align-items: flex-start;
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+      //height:200px;
+      width: 32%;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .treeheaderbg {
+      position: relative;
+      align-self: stretch;
+      width: 364px;
+      object-fit: cover;
+    }
+  
+    .design-system .details-2 {
+      display: flex;
+      flex-direction: column;
+      max-width: 1140px;
+      align-items: center;
+      gap: 100px;
+      padding: 0px 40px 160px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content-2 {
+      align-items: flex-start;
+      //gap: 80px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .separator {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 1px;
+      background-color: #e6d1cd;
+    }
+  
+    .design-system .columns {
+      display: flex;
+      align-items: flex-start;
+      //gap: 64px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      flex-direction: column;
+      margin-bottom: 64px;
+    }
+  
+    .design-system .div-2 {
+      gap: 15px;
+      flex: 1;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+    }
+  
+    .design-system .text-wrapper-3 {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      padding-top: 80px;
+    }
+  
+    .design-system .in-my-position-at {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.27px;
+      line-height: 28px;
+    }
+  
+    .design-system .p {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.02px;
+      line-height: 28px;
+      width: fit-content;
+      align-self: center;
+    }
+  
+    .design-system .text-wrapper-4 {
+      position: relative;
+      
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+      margin-top: 80px;
+    }
+  
+    .design-system .div-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 0px 24px 120px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .top {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 0px 120px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-5 {
+      position: relative;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .div-4 {
+      position: relative;
+      width: 560px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      line-height: 28px;
+            text-align-last: center;
+
+    }
+  
+    .design-system .span {
+      letter-spacing: 0.03px;
+    }
+  
+    .design-system .text-wrapper-6 {
+      letter-spacing: 0.01px;
+    }
+  
+    .design-system .text-wrapper-7 {
+      letter-spacing: 0.04px;
+    }
+  
+    .design-system .text-wrapper-8 {
+      letter-spacing: 0.05px;
+      //text-align: justify;
+    }
+  
+    .design-system .kits {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //gap: 16px;
+      padding: 0px 0px 120px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .div-5 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      padding-bottom: 32px;
+    }
+  
+    .design-system .img-2 {
+      position: relative;
+      width: 336px;
+      height: 260px;
+      object-fit: cover;
+    }
+  
+    .design-system .text-wrapper-9 {
+      position: relative;
+      width: fit-content;
+      font-family: "Helvetica Neue-Italic", Helvetica;
+      font-weight: 400;
+      font-style: italic;
+      color: #00000099;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .rightarrow {
+      position: relative;
+      width: 51px;
+      height: 12px;
+    }
+  
+    .design-system .reuse {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 0px 80px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-10 {
+      letter-spacing: -0.02px;
+    }
+  
+    .design-system .text-wrapper-11 {
+      letter-spacing: 0;
+    }
+  
+    .design-system .text-wrapper-12 {
+      letter-spacing: 0.02px;
+    }
+  
+    .design-system .img-3 {
+      position: relative;
+      align-self: stretch;
+      width: 32%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .top-2 {
+      display: inline-flex;
+      align-items: center;
+      gap: 30px;
+      padding: 0px 0px 120px;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .however-in-parallel {
+      position: relative;
+      width: 560px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      line-height: 28px;
+    }
+  
+    .design-system .text-wrapper-13 {
+      letter-spacing: 0.06px;
+    }
+  
+    .design-system .text-wrapper-14 {
+      position: relative;
+      width: 100%;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: left;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .lps {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 0px 0px 120px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-15 {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .screens {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      flex-direction: column;
+    }
+  
+    .design-system .element {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  
+    .design-system .text-wrapper-16 {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Italic", Helvetica;
+      font-weight: 400;
+      font-style: italic;
+      color: #00000099;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .oldlp-x {
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      width: 100%;
+      flex-grow: 1;
+      object-fit: cover;
+    }
+  
+    .design-system .element-2 {
+      display: flex;
+      flex-direction: column;
+      //height: 928px;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .div-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-17 {
+      position: relative;
+      width: 560px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .div-7 {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      //padding: 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      flex-direction: row;
+    }
+  
+    .design-system .element-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      
+    }
+  
+    .design-system .oldicons-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      //height: 409px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .div-8 {
+      display: flex;
+      align-items: center;
+      //gap: 40px;
+      padding: 0px 0px 80px;
+      align-self: stretch;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: left;
+      line-height: 28px;
+    }
+  
+    .design-system .text-wrapper-18 {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 38px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .div-9 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .design-system .text-wrapper-19 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0;
+      width:100%;
+      text-align: left;
+    }
+  
+    .design-system .text-wrapper-20 {
+      letter-spacing: -0.03px;
+    }
+  
+    .design-system .text-wrapper-21 {
+      letter-spacing: -0.01px;
+    }
+  
+    .design-system .lps-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 0px 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .newlp-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      //height: 240px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .element-4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 11px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .div-10 {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+
+        .design-system .icons {
+          padding: 0px 0px 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .icons-x {
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          //height: 410px;
+          object-fit: cover;
+          border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+        }
+    
+        .design-system .illustrations-x {
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          //height: 530px;
+          object-fit: cover;
+          border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+        }
+    
+        .design-system .animation {
+          display: flex;
+          flex-direction: column;
+          //max-width: 1140px;
+          align-items: center;
+          gap: 40px;
+          //padding: 0px 0px 160px;
+          position: relative;
+          width: 100%;
+          flex: 0 0 auto;
+          background-color: #f3f1fb;
+
+        }
+    
+        .design-system .as-these-wrapper {
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          padding: 24px 24px;
+          display: flex;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .as-these {
+          position: relative;
+          flex: 1;
+          margin-top: -1.00px;
+          font-family: "Helvetica Neue-Regular", Helvetica;
+          font-weight: 400;
+          color: #000000;
+          font-size: 18px;
+          line-height: 28px;
+        }
+    
+        .design-system .text-wrapper-22 {
+          letter-spacing: 0.08px;
+        }
+    
+        .design-system .DNA-wrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+          background-color: #f3f1fb;
+        }
+    
+        .design-system .DNA {
+          position: relative;
+          width: 768px;
+          height: 601px;
+          object-fit: cover;
+        }
+    
+        .design-system .analogical {
+          display: flex;
+          flex-direction: column;
+          //max-width: 1140px;
+          align-items: center;
+          gap: 24px;
+          padding: 80px 24px 160px;
+          position: relative;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .top-3 {
+          display: flex;
+          align-items: flex-start;
+          //gap: 104px;
+          //padding: 0px 24px;
+          align-self: stretch;
+          width: 100%;
+          flex-direction: column;
+          position: relative;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .content-3 {
+          align-items: center;
+          gap: 37px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .text-2 {
+          flex-direction: column;
+          align-items: center;
+          gap: 32px;
+          display: flex;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .collages {
+          position: relative;
+          width: 714px;
+          height: 331px;
+          object-fit: cover;
+        }
+    
+        .design-system .i-just-had-to {
+          position: relative;
+          width: 754px;
+          margin-right: -34.00px;
+          font-family: "Helvetica Neue-Regular", Helvetica;
+          font-weight: 400;
+          color: #000000;
+          font-size: 18px;
+          text-align: center;
+          letter-spacing: 0.05px;
+          line-height: 28px;
+        }
+    
+        .design-system .img-4 {
+          position: relative;
+          flex: 1;
+          align-self: stretch;
+          flex-grow: 1;
+          object-fit: cover;
+        }
+    
+        .design-system .next {
+          display: flex;
+          flex-direction: column;
+          max-width: 1140px;
+          align-items: center;
+          gap: 40px;
+          padding: 0px 0px 80px;
+          position: relative;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .text-3 {
+          flex-direction: column;
+          align-items: center;
+          gap: 50px;
+          padding: 0px 24px;
+          display: flex;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .text-wrapper-23 {
+          position: relative;
+          width: fit-content;
+          margin-top: -1.00px;
+          font-family: "Helvetica Neue-Bold", Helvetica;
+          font-weight: 700;
+          color: #000000;
+          font-size: 38px;
+          text-align: center;
+          letter-spacing: 0;
+          line-height: 28px;
+          white-space: nowrap;
+        }
+    
+        .design-system .div-11 {
+          gap: 60px;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          position: relative;
+        }
+    
+        .design-system .text-wrapper-24 {
+          position: relative;
+          align-self: stretch;
+          margin-top: -1.00px;
+          font-family: "Helvetica Neue-Regular", Helvetica;
+          font-weight: 400;
+          color: #000000;
+          font-size: 18px;
+          letter-spacing: 0.05px;
+          line-height: 28px;
+        }
+    
+        .design-system .content-4 {
+          align-items: center;
+          gap: 80px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .screens-2 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 12px;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .i-pushed-r-d-to-be {
+          position: relative;
+          align-self: stretch;
+          margin-top: -1.00px;
+          font-family: "Helvetica Neue-Regular", Helvetica;
+          font-weight: 400;
+          color: #000000;
+          font-size: 18px;
+          line-height: 28px;
+        }
+    
+        .design-system .apps {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 25px;
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .figma {
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          height: 286.17px;
+        }
+    
+        .design-system .storybook {
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          height: 442.96px;
+        }
+    
+        .design-system .text-wrapper-25 {
+          position: relative;
+          align-self: stretch;
+          font-family: "Helvetica Neue-Regular", Helvetica;
+          font-weight: 400;
+          color: #000000;
+          font-size: 18px;
+          letter-spacing: 0;
+          line-height: 28px;
+        }
+    
+        .design-system .group {
+          position: relative;
+          align-self: stretch;
+          width: 100%;
+          height: 442.03px;
+        }
+    
+        .design-system .closure {
+          display: flex;
+          flex-direction: column;
+          max-width: 1140px;
+          align-items: center;
+          gap: 24px;
+          padding: 0px 24px 120px;
+          position: relative;
+          width: 100%;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .text-wrapper-26 {
+          letter-spacing: 0.01px;
+          text-decoration: underline;
+        }  
+
+      .design-system .headerimgbg {
+        position: relative;
+        align-self: stretch;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 360px;
+      }
+
+      .design-system .header-2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        flex: 0 0 auto;
+     }
+
+     .design-system .dna_health_imgs {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      flex-direction: row;
+    }
+
+    .design-system .genealogy {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 56px;
+          position: relative;
+          //flex-direction: row;
+          padding: 0px 24px;
+          width: 100%;
+        }
+
+    .design-system .upgrade {
+      display: inline-flex;
+      align-items: center;
+      gap: 81px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .design-system .technical {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 80px 24px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+  }
+
+  .design-system .content-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 115px;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+    width:100%;
+  }
+
+  .design-system .mobileheaderimg {
+      display:none; 
+    }
+
+    }
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+
+  /* Show desktop content, hide others */
+  .mobile-only,
+  .tablet-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+    width: 100%;
+  }
+
+    .design-system {
+      display: flex;
+      flex-direction: column;
+      //width: 1025px;
+      align-items: center;
+      position: relative;
+      background-color: #ffffff;
+      overflow: hidden;
+    }
+  
+    .design-system .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 17px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #ffffff;
+      box-shadow: var(--close);
+      z-index: 1;
+    }
+  
+    .design-system .text-wrapper {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 22px;
+      letter-spacing: 4.40px;
+      line-height: normal;
+    }
+  
+    .design-system .links {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+      gap: 70px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+        .design-system .genealogy {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 56px;
+          position: relative;
+        }
+    
+        .design-system .upgrade {
+          display: inline-flex;
+          align-items: center;
+          gap: 81px;
+          position: relative;
+          flex: 0 0 auto;
+        }
+    
+        .design-system .img {
+          position: relative;
+          width: 367px;
+          height: 200px;
+          object-fit: cover;
+          border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+        }
+    
+        .design-system .arrow {
+          position: relative;
+          width: 50px;
+          height: 20px;
+        }
+    
+        .design-system .img-2 {
+          position: relative;
+          width: 366px;
+          height: 200px;
+          object-fit: cover;
+        }
+    
+
+
+    .design-system .screens {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 35px;
+      padding: 0px 24px;
+      position: relative;
+    }
+
+    .design-system .dna_health_imgs {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+
+    }
+
+    .design-system .dna_health_img {
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      //height: 200px;
+      width: 32%;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+
+    .design-system .downarrows {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 32%;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+
+  
+
+
+    .design-system .div {
+      position: relative;
+      width: fit-content;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 12px;
+      letter-spacing: 0.30px;
+      line-height: normal;
+      padding: 0px;
+    }
+
+    a:visited {
+      color: #000;
+    }
+
+    a:link {
+      color: #000;
+    } 
+
+    a:hover {
+      color: #555;
+    }
+  
+    .design-system .header-2 {
+      display: flex;
+      flex-direction: column;
+      //max-width: 1140px;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content {
+      display: flex;
+      align-items: flex-start;
+      padding: 0px 0px 0px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      justify-content: space-between;
+      max-width:1200px;
+      margin: auto;
+    }
+  
+    .design-system .text {
+      display: flex;
+      flex-direction: column;
+      max-width: 455px;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 80px 0px 40px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 9px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .logo {
+      position: relative;
+      width: 130px;
+      height: 24px;
+    }
+  
+    .design-system .text-wrapper-2 {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0;
+      line-height: 52px;
+    }
+  
+    .design-system .details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .in-myheritage {
+      position: relative;
+      flex: 1;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .img {
+      display: flex;
+      align-items: flex-start;
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+
+    .design-system .headerimg {
+      //height: 741px;
+      height: 100%;
+      position: absolute; 
+      top: 0px;
+      left: 500px;
+    }
+  
+    .design-system .headerimgbg {
+      position: relative;
+      align-self: stretch;
+      //width: 530px;
+      object-fit: cover;
+      //height: 741px;
+      height: 100%;
+    }
+
+    .design-system .mobileheaderimg {
+      display:none; 
+    }
+  
+    .design-system .details-2 {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: center;
+      gap: 100px;
+      padding: 0px 40px 160px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content-2 {
+      display: flex;
+      align-items: flex-start;
+      gap: 80px;
+      align-self: stretch;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .separator {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 1px;
+      background-color: #e6d1cd;
+    }
+    
+    .design-system .columns {
+      display: flex;
+      align-items: flex-start;
+      gap: 60px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .div-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .text-wrapper-3 {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .in-my-position-at {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.27px;
+      line-height: 28px;
+    }
+  
+    .design-system .p {
+      position: relative;
+      align-self: center;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.02px;
+      line-height: 28px;
+      //text-align: center;
+      width: fit-content;
+    }
+
+    .design-system .p1 {
+      position: relative;
+      align-self: center;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.02px;
+      line-height: 28px;
+      text-align: justify;
+      //width: 560px;
+      text-align-last: center;
+
+    }
+  
+    .design-system .text-wrapper-4 {
+      position: relative;
+      width: 754px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .design-system .div-3 {
+      display: flex;
+      flex-direction: column;
+      max-width: 1140px;
+      align-items: center;
+      gap: 8px;
+      padding: 0px 0px 120px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .top {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 24px 120px;
+      position: relative;
+      flex: 0 0 auto;
+      width: 888px;
+    }
+  
+    .design-system .text-wrapper-5 {
+      position: relative;
+      //width: 308px;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .div-4 {
+      position: relative;
+      width: 560px;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      line-height: 28px;
+            text-align-last: center;
+    }
+  
+    .design-system .span {
+      letter-spacing: 0.03px;
+    }
+  
+    .design-system .text-wrapper-6 {
+      letter-spacing: 0.01px;
+            text-align-last: center;
+
+    }
+  
+    .design-system .text-wrapper-7 {
+      letter-spacing: 0.04px;
+    }
+  
+    .design-system .text-wrapper-8 {
+      letter-spacing: 0.05px;
+    }
+  
+    .design-system .kits {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 34px;
+      padding: 0px 0px 120px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .div-5 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      padding-bottom: 32px;
+    }
+  
+    .design-system .img-2 {
+      position: relative;
+      width: 336px;
+      height: 260px;
+      object-fit: cover;
+    }
+  
+    .design-system .text-wrapper-9 {
+      position: relative;
+      width: fit-content;
+      font-family: "Helvetica Neue-Italic", Helvetica;
+      font-weight: 400;
+      font-style: italic;
+      color: #00000099;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+ 
+  
+    .design-system .reuse {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 0px 80px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-10 {
+      letter-spacing: -0.02px;
+    }
+  
+    .design-system .text-wrapper-11 {
+      letter-spacing: 0;
+    }
+  
+    .design-system .text-wrapper-12 {
+      letter-spacing: 0.02px;
+    }
+  
+    .design-system .screens {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .top-2 {
+      display: inline-flex;
+      align-items: center;
+      gap: 30px;
+      padding: 0px 0px 120px;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .however-in-parallel {
+      position: relative;
+      width: 560px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      line-height: 28px;
+    }
+  
+    .design-system .text-wrapper-13 {
+      letter-spacing: 0.06px;
+    }
+  
+    .design-system .text-wrapper-14 {
+      position: relative;
+      width: fit-content;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .lps {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 0px 24px 120px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-15 {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .screens-2 {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .element {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  
+    .design-system .text-wrapper-16 {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Italic", Helvetica;
+      font-weight: 400;
+      font-style: italic;
+      color: #00000099;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .design-system .oldlp-x {
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      width: 100%;
+      flex-grow: 1;
+      object-fit: cover;
+    }
+  
+    .design-system .element-2 {
+      display: flex;
+      flex-direction: column;
+      //height: 928px;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      width: 32%;
+    }
+  
+    .design-system .div-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      padding: 0px 24px;
+    }
+  
+    .design-system .text-wrapper-17 {
+      position: relative;
+      width: 560px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .div-7 {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .element-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .oldicons-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 409px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .top-3 {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 0px 0px 80px;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+      width: 760px;
+    }
+  
+    .design-system .text-2 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-18 {
+      position: relative;
+      width: fit-content;
+      font-weight: 700;
+      color: #000000;
+      font-size: 38px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 38px;
+      white-space: nowrap;
+    }
+  
+    .design-system .div-8 {
+      position: relative;
+      //width: 754px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      line-height: 28px;
+    }
+  
+    .design-system .text-wrapper-19 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+  
+    .design-system .text-wrapper-20 {
+      letter-spacing: -0.03px;
+    }
+  
+    .design-system .text-wrapper-21 {
+      letter-spacing: -0.01px;
+    }
+  
+    .design-system .lps-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 84px;
+      padding: 0px 0px 80px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content-3 {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 0px 24px;
+      align-self: stretch;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .newlp-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .element-4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 11px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .design-system .icons {
+      padding: 0px 0px 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .icons-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 410px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .illustrations-x {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 530px;
+      object-fit: cover;
+      border: 1px solid;
+    border-color: #f0f0f0;
+    border-radius: 8px;
+    }
+  
+    .design-system .div-9 {
+      display: flex;
+      flex-direction: column;
+      max-width: 1140px;
+      align-items: center;
+      gap: 100px;
+      padding: 0px 0px 160px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .as-these-wrapper {
+      width: 754px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      display: flex;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .as-these {
+      position: relative;
+      flex: 1;
+      
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      line-height: 28px;
+            text-align-last: center;
+
+    }
+  
+    .design-system .text-wrapper-22 {
+      letter-spacing: 0.08px;
+    }
+  
+    .design-system .animation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #f3f1fb;
+    }
+  
+    .design-system .DNA {
+      position: relative;
+      width: 802px;
+      height: 601px;
+      object-fit: cover;
+    }
+  
+    .design-system .analogical {
+      display: flex;
+      flex-direction: column;
+      max-width: 1140px;
+      align-items: center;
+      gap: 65px;
+      padding: 0px 0px 160px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .top-4 {
+      display: flex;
+      align-items: center;
+      gap: 104px;
+      align-self: stretch;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .content-4 {
+      display: flex;
+      align-items: center;
+      gap: 37px;
+      align-self: stretch;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-3 {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      align-self: stretch;
+      width: 100%;
+      display: flex;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .design-system .text-wrapper-23 {
+      position: relative;
+      width: 496px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .design-system .collages {
+      position: relative;
+      width: 714px;
+      height: 331px;
+      object-fit: cover;
+    }
+  
+    .design-system .img-3 {
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      //height: 275.25px;
+      object-fit: cover;
+      width: 32%;
+
+    }
+    
+  .design-system .text-4 {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 24px;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .div-10 {
+    position: relative;
+    flex: 1;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+  }
+
+  .design-system .genealogy {
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .technical {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    align-items: center;
+    gap: 110px;
+    padding: 0px 0px 80px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .content-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 115px;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .screens-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 119px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .i-pushed-r-d-to-be {
+    position: relative;
+    width: 848px;
+    
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+  }
+
+  .design-system .apps {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .figma {
+    position: relative;
+    width: 946px;
+    height: 376px;
+  }
+
+  .design-system .storybook {
+    position: relative;
+    width: 946px;
+    height: 582px;
+  }
+
+  .design-system .text-wrapper-24 {
+    position: relative;
+    width: 754px;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .design-system .group {
+    position: relative;
+    width: 1005px;
+    height: 617px;
+  }
+
+  .design-system .closure {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 0px 120px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text-5 {
+    align-items: flex-start;
+    gap: 60px;
+    padding: 0px 24px;
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .design-system .text-wrapper-25 {
+    letter-spacing: 0.01px;
+    text-decoration: underline;
+  }
+
+  .design-system .arrowdown {
+    position: relative;
+    width: 20px;
+    height: 50px;
+    margin: 0px;
+  }
+
+  .design-system .arrowdownleft {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin: 0px;
+     }
+
+     .design-system .arrowdownright {
+        position: relative;
+        width: 20px;
+        height: 50px;
+        margin: 0px;
+     }
+}

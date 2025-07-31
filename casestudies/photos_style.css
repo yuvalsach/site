@@ -1,0 +1,2490 @@
+/* Base styles - mobile first */
+body {
+  margin: 0px;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+
+}
+
+a:visited {
+      color: #000;
+    }
+
+    a:link {
+      color: #000;
+    } 
+
+
+body.photo-effects {
+  /* Paste your mobile CSS here, exactly as you gave */
+  /* Example: */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+
+
+#backgroundmobileVideo {
+      top: 0;
+      left: 0;
+      width: 120%;
+      height: 100%;
+      object-fit: cover;
+      //z-index: -1;
+}
+
+@media (max-width: 767px) {
+
+
+  /* Hide tablet and desktop content on mobile */
+  .tablet-only,
+  .desktop-only {
+    display: none;
+  }
+
+
+  #backgroundVideo {
+    display: none;
+  }
+  /* Your mobile CSS styles go here */
+ 
+    .photo-effects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 0px 80px;
+      position: relative;
+      background-color: #ffffff;
+      overflow: hidden;
+    }
+
+    .photos-effects .backgroundVideo {
+      display: none;
+    }
+
+    .photo-effects .text-wrapper-22 {
+      position: relative;
+      width: 80%;
+      //height: 233px;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: left;
+      letter-spacing: 0.07px;
+      line-height: 28px;
+      margin: 0px;
+      width: 100%;
+    }
+
+    .photo-effects .researchcoloredphoto-wrapper {
+      display: none;
+    }
+
+    .photo-effects .researcharrow {
+      display: none;
+    }
+
+    .photo-effects .smallcomparisonimg{
+      width:100%;
+    }
+
+    .photo-effects .div-3 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      width:100%;
+    }
+
+    .photo-effects .phonesvideo {
+      position: relative;
+      width: 100%;
+    }
+
+    .photo-effects .reactionsvideo {
+      position: relative;
+      height: 240px;
+    }
+
+    .photo-effects .text-wrapper-19 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 32px;
+      //text-align: center;
+      letter-spacing: 0;
+      line-height: 26px;
+    }
+
+    .photo-effects .div-2 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+    .photo-effects .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //gap: 668px;
+      padding: 16px 0px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #ffffff;
+      box-shadow: var(--close);
+      margin: 0px;
+    }
+  
+    .photo-effects .links {
+      display: none;
+    }
+
+    .photo-effects .img-3 {
+      position: relative;
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .photo-effects .text-wrapper {
+      position: relative;
+      width: fit-content;
+      margin-top: -1.00px;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 22px;
+      letter-spacing: 4.40px;
+      line-height: normal;
+    }
+  
+    .photo-effects .top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 68px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      //gap: 16px;
+      padding: 40px 0px 0px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 9px;
+      padding: 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .logo {
+      position: relative;
+      width: 130px;
+      height: 24px;
+    }
+  
+    .photo-effects .p {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 40px;
+      letter-spacing: 0;
+      line-height: 48px;
+    }
+  
+    .photo-effects .video {
+      display: flex;
+      height: 388px;
+      align-items: flex-start;
+      justify-content: flex-end;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+    }
+  
+    .photo-effects .treeheaderbg {
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  
+    .photo-effects .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .family-photos-play {
+      position: relative;
+      align-self: stretch;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 28px;
+      padding: 0px 16px;
+    }
+  
+    .photo-effects .the-team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-2 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-align: left;
+    }
+
+    .photo-effects .text-wrapper-2-1 {
+      position: relative;
+      align-self: center;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-align: center;
+      //width: 640px;
+      padding: 16px 16px;
+    }
+  
+    .photo-effects .as-director-of {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .research {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: center;
+      gap: 80px;
+      padding: 120px 0px 0px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .UX-research {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .research-2 {
+      display: flex;
+      align-items: flex-start;
+      gap: 78px;
+      padding: 0px 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 0px 24px 0px 0px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .photo-effects .text-wrapper-3 {
+      position: relative;
+      width: 212px;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-4 {
+          letter-spacing: 0.01px;
+    }
+  
+    .photo-effects .researchsmall {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 149.36px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .research-3 {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-3 {
+      position: relative;
+      flex: 1;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .span {
+      letter-spacing: 0.01px;
+    }
+  
+    .photo-effects .text-wrapper-5 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0.01px;
+      
+    }
+  
+    .photo-effects .wow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      padding: 0px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-6 {
+      
+    }
+  
+    .photo-effects .images {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 12px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .img {
+      position: relative;
+      width: 175.5px;
+      height: 240.5px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .wowarrow {
+      position: relative;
+      width: 92px;
+      height: 31px;
+      object-fit: cover;
+      display: block;
+      margin: auto;
+    }
+  
+    .photo-effects .text-wrapper-7 {
+      position: relative;
+      width: fit-content;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .photo-effects .solution {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: flex-start;
+      gap: 10px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 16px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-4 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      //gap: 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .image {
+      display: none;
+    }
+
+    .photo-effects .image-mobile {
+      display: flex;
+      flex-direction: column;
+      //height: 384px;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      //margin-bottom:80px;
+      margin-top:24px;
+
+    }
+  
+    .photo-effects .rectangle {
+      position: relative;
+      width: 520px;
+      //height: 411px;
+      //margin-bottom: -27.00px;
+      //margin-left: -16.00px;
+      //margin-right: -16.00px;
+    }
+  
+    .photo-effects .circles {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 40px 0px 0px 0px;
+      position: relative;
+      //align-self: stretch;
+      //width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .circle-x {
+      position: relative;
+      //flex: 1;
+      //flex-grow: 1;
+      width: 140px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .circle-x-2 {
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+      height: 168.05px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 109px;
+      padding: 80px 16px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-5 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      padding: 80px 0px 0px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      //gap: 69px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-8 {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .phones {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 43px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .component {
+      display: flex;
+      height: 226.02px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+    }
+  
+    .photo-effects .phones-2 {
+      position: relative;
+      width: 343px;
+      height: 226.02px;
+    }
+  
+    .photo-effects .bottom-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      padding: 0px 16px;
+    }
+  
+    .photo-effects .we-released-the {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-9 {
+      letter-spacing: -0.01px;
+    }
+  
+    .photo-effects .text-wrapper-10 {
+      position: relative;
+      width: 212px;
+      margin-top: -1.00px;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-11 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-12 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0.01px;    
+    }
+    
+    .photo-effects .reactions {
+      display: flex;
+      flex-direction: column;
+      //width: 1140px;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      
+    }
+  
+    .photo-effects .base {
+      position: relative;
+      width: 375px;
+      height: 404px;
+    }
+  
+    .photo-effects .reactions-2 {
+      position: absolute;
+      width: 375px;
+      height: 171px;
+      top: 104px;
+      left: 382px;
+      mix-blend-mode: multiply;
+    }
+  
+    .photo-effects .coverage {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 108px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .content {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      gap: 51px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      
+      
+    }
+  
+    .photo-effects .text-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 30px;
+      padding: 0px 0px 48px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-13 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 32px;
+      text-align: center;
+    }
+  
+    .photo-effects .little-did-we-know {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-14 {
+      letter-spacing: -0.02px;
+      text-align: center;
+    }
+  
+    .photo-effects .text-wrapper-15 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;    
+    }
+  
+    .photo-effects .text-wrapper-16 {
+      letter-spacing: -0.05px;
+    }
+  
+    .photo-effects .stats {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      //padding: 0px 0px 16px 16px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .appstore {
+      position: relative;
+      //flex: 1;
+      //flex-grow: 1;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .photo-effects .coverage-x {
+      position: relative;
+      align-self: stretch;
+      width: 75%;
+      //height: 177.5px;
+      object-fit: cover;
+      margin: auto;
+      display: block;
+      margin-top: 32px;
+    }
+  
+    .photo-effects .text-wrapper-17 {
+      position: relative;
+      width: 560px;
+      height: 233px;
+      margin-right: -217.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0.07px;
+      line-height: 28px;
+    }
+
+  
+  }
+
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Show tablet content, hide others */
+  .mobile-only,
+  .desktop-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: block;
+  }
+
+
+#backgroundVideo {
+      position: absolute;
+      top: -80px;
+      left: 280px;
+      width: 100%;
+      height: 110%;
+}
+
+  /* Paste tablet CSS here or override styles as needed */
+  /* Example tablet override */
+    .photo-effects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 0px 200px;
+      position: relative;
+      background-color: #ffffff;
+      overflow: hidden;
+
+    }
+
+    .photo-effects .researchcoloredphoto-wrapper {
+      display: none;
+    }
+
+    .photo-effects .researcharrow {
+      display: none;
+    }
+
+    .photo-effects .smallcomparisonimg{
+      width:100%;
+    }
+  
+    .photo-effects .header {
+       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 17px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      background-color: #ffffff;
+      box-shadow: var(--close);
+      z-index: 1;
+    }
+
+    .photo-effects .links {
+      display: none;
+    }
+  
+    .photo-effects .text-wrapper {
+      position: relative;
+      font-family: "Inter-Bold", Helvetica;
+      margin-top: -1.00px;
+      font-weight: 700;
+      color: #000;
+      font-size: 22px;
+      letter-spacing: 4.40px;
+      line-height: normal;
+      //margin:auto;
+    }
+  
+    .photo-effects .top {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: center;
+      gap: 100px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+
+    .photo-effects .header-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+      height: 100%;
+    }
+  
+    .photo-effects .content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: left;
+      padding: 0px 0px 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text {
+      display: flex;
+      flex-direction: column;
+      width: 360px;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 40px 0px 0px;
+      position: relative;
+    }
+  
+    .photo-effects .title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 9px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .logo {
+      position: relative;
+      width: 130px;
+      height: 24px;
+    }
+  
+    .photo-effects .p {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0;
+      line-height: 52px;
+    }
+  
+    .photo-effects .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .family-photos-play {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .video {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  
+    .photo-effects .treeheaderbg {
+      position: relative;
+      flex: 1;
+      align-self: stretch;
+      flex-grow: 1;
+    }
+  
+    .photo-effects .the-team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-2 {
+      position: relative;
+      align-self: center;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-align: left;
+      width: 100%;
+    }
+
+    .photo-effects .text-wrapper-2-1 {
+      position: relative;
+      align-self: center;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-align: center;
+      width: 640px;
+    }
+  
+    .photo-effects .text-wrapper-3 {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .research {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: center;
+      gap: 80px;
+      padding: 120px 0px 0px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .UX-research {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .research-2 {
+      display: flex;
+      align-items: flex-start;
+      gap: 78px;
+      padding: 0px 0px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 0px 24px 0px 0px;
+      position: relative;
+      flex: 1;
+      flex-grow: 1;
+    }
+  
+    .photo-effects .text-wrapper-4 {
+          letter-spacing: 0.01px;
+
+    }
+  
+    .photo-effects .researchsmall {
+      position: relative;
+      width: 643px;
+      height: 280px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .research-3 {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-3 {
+      position: relative;
+      flex: 1;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .span {
+      letter-spacing: 0.01px;
+    }
+  
+    .photo-effects .text-wrapper-5 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0.01px;
+    }
+  
+    .photo-effects .wow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      padding: 0px 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-6 {
+      position: relative;
+      align-self: stretch;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      letter-spacing: 0;
+      line-height: 28px;
+            text-align-last: center;
+
+    }
+  
+    .photo-effects .div-2 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      //text-align: justify;
+      line-height: 28px;
+    }
+  
+    .photo-effects .images {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 24px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .img {
+      position: relative;
+      width: 240px;
+      height: 240.5px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .wowarrow {
+      position: relative;
+      width: 92px;
+      height: 31px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .text-wrapper-7 {
+      position: relative;
+      width: fit-content;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+      white-space: nowrap;
+    }
+  
+    .photo-effects .solution {
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 80px 0px;
+      position: relative;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 24px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-4 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .image {
+      display: none;
+    }
+
+    .photo-effects .image-mobile {
+      display: flex;
+      flex-direction: column;
+      height: 384px;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      margin-bottom:80px;
+    }
+  
+    .photo-effects .rectangle {
+      position: relative;
+      width: 768px;
+      height: 687px;
+      margin-bottom: -158.00px;
+      margin-left: -24.00px;
+      margin-right: -24.00px;
+    }
+  
+    .photo-effects .circles {
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 40px 0px 0px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .circle-x {
+      position: relative;
+      width: 209.5px;
+      height: 223px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .circle-x-2 {
+      position: relative;
+      width: 209.5px;
+      height: 218px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 109px;
+      padding: 80px 24px 40px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-5 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 80px;
+      padding: 80px 24px 0px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-8 {
+      position: relative;
+      align-self: stretch;
+      margin-top: -1.00px;
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .phones {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 43px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .component {
+      display: flex;
+      height: 474.44px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+    }
+  
+    .photo-effects .phones-2 {
+      position: relative;
+      width: 720px;
+      height: 474.44px;
+    }
+  
+    .photo-effects .bottom-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .we-released-the {
+      position: relative;
+      width: 567px;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      line-height: 28px;
+      text-align-last: center;
+    }
+  
+    .photo-effects .text-wrapper-9 {
+      letter-spacing: -0.01px;
+    }
+  
+    .photo-effects .text-wrapper-10 {
+      position: relative;
+      width: 212px;
+      margin-top: -1.00px;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-11 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      letter-spacing: 0.05px;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-12 {
+      font-family: "Helvetica Neue-Bold", Helvetica;
+      font-weight: 700;
+      letter-spacing: 0.01px;
+    }
+  
+    .photo-effects .reactions {
+      display: flex;
+      flex-direction: column;
+      width: 1140px;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      margin-left: -210.00px;
+      margin-right: -210.00px;
+    }
+  
+    .photo-effects .base {
+      position: relative;
+      width: 768px;
+      height: 404px;
+    }
+  
+    .photo-effects .reactions-2 {
+      position: absolute;
+      width: 450px;
+      height: 171px;
+      top: 104px;
+      left: 345px;
+      mix-blend-mode: multiply;
+    }
+  
+    .photo-effects .coverage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 108px;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .content-2 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 51px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-6 {
+      display: flex;
+      flex-direction: column;
+      width: 564px;
+      align-items: flex-end;
+      gap: 30px;
+      padding: 0px 0px 48px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .text-wrapper-13 {
+      position: relative;
+      width: 760px;
+      font-weight: 700;
+      color: #000000;
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+  
+    .photo-effects .little-did-we-know {
+      position: relative;
+      align-self: stretch;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: center;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-14 {
+      letter-spacing: -0.02px;
+    }
+  
+    .photo-effects .text-wrapper-15 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+  
+    .photo-effects .text-wrapper-16 {
+      letter-spacing: -0.05px;
+    }
+  
+    .photo-effects .stats {
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      padding: 0px 0px 16px 16px;
+      position: relative;
+      flex: 0 0 auto;
+    }
+  
+    .photo-effects .appstore {
+      position: relative;
+      width: 572px;
+      height: 609px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .coverage-x {
+      position: relative;
+      width: 475px;
+      height: 177.5px;
+      object-fit: cover;
+    }
+  
+    .photo-effects .text-wrapper-17 {
+      position: relative;
+      width: 560px;
+      height: 233px;
+      font-family: "Helvetica Neue-Regular", Helvetica;
+      font-weight: 400;
+      color: #000000;
+      font-size: 18px;
+      text-align: justify;
+      text-align-last: center;
+      letter-spacing: 0.07px;
+      line-height: 28px;
+    }
+
+     .photo-effects .div-3 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      flex: 0 0 auto;
+      width:504px;
+    }
+
+    .photo-effects .img-3 {
+      position: relative;
+      width: 240px;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .photo-effects .phonesvideo {
+      position: relative;
+      width: 100%;
+    }
+
+    .photo-effects .text-wrapper-19 {
+      position: relative;
+      align-self: stretch;
+      font-weight: 700;
+      color: #000000;
+      font-size: 38px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: 28px;
+    }
+
+    .photo-effects .text-wrapper-22 {
+      align-self: center;
+    }
+
+    #backgroundmobileVideo {
+    display: none;
+    }
+  /* ... add tablet-specific overrides for classes ... */
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+
+  /* Show desktop content, hide others */
+  .mobile-only,
+  .tablet-only {
+    display: none;
+  }
+
+  .desktop-only {
+    display: block;
+    width: 100%;
+  }
+
+
+#backgroundVideo {
+      position: absolute;
+      top: -80px;
+      left: 280px;
+      width: 100%;
+      height: 100%;
+      //object-fit: fill;
+      //z-index: -1;
+          //border: 14px solid red;
+
+}
+
+  .photo-effects .smallcomparisonimg{
+    display: none;  
+  }
+
+
+    a:visited {
+      color: #000;
+    }
+
+    a:link {
+      color: #000;
+    } 
+
+    a:hover {
+      color: #555;
+    }
+  
+
+  .photo-effects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .photo-effects .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    box-shadow: var(--close);
+    z-index: 1;
+  }
+
+  .photo-effects .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 4.40px;
+    line-height: normal;
+  }
+
+  .photo-effects .links {
+      display: inline-flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+      gap: 70px;
+      position: relative;
+      flex: 0 0 auto;
+    
+  }
+
+  .photo-effects .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0.30px;
+    line-height: normal;
+  }
+
+  .photo-effects .top {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 0px 0px 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 80px 0px 160px;
+    position: relative;
+  }
+
+  .photo-effects .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .logo {
+    position: relative;
+    width: 130px;
+    height: 24px;
+  }
+
+  .photo-effects .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 52px;
+  }
+
+  .photo-effects .family-photos-play {
+    position: relative;
+    align-self: stretch;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .photo-effects .video {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .photo-effects .treeheaderbg {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+
+  .photo-effects .the-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    //padding: 80px 0px;
+    padding-bottom:80px;
+    position: relative;
+    width: 760px;;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .photo-effects .text-wrapper-2-1 {
+      position: relative;
+      align-self: center;
+      font-weight: 700;
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: 28px;
+      text-align: center;
+    }
+
+  .photo-effects .div-2 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+        text-align-last: center;
+
+  }
+
+  .photo-effects .span {
+    letter-spacing: 0.03px;
+  }
+
+  .photo-effects .text-wrapper-3 {
+    letter-spacing: 0.06px;
+  }
+
+  .photo-effects .text-wrapper-4 {
+    letter-spacing: 0.01px;
+  }
+
+  .photo-effects .text-wrapper-5 {
+    letter-spacing: 0.04px;
+  }
+
+  .photo-effects .text-wrapper-6 {
+    letter-spacing: -0.02px;
+  }
+
+  .photo-effects .text-wrapper-7 {
+    letter-spacing: 0;
+  }
+
+  .photo-effects .text-wrapper-8 {
+    letter-spacing: 0.07px;
+  }
+
+  .photo-effects .text-wrapper-9 {
+    letter-spacing: 0.02px;
+  }
+
+  .photo-effects .research {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0px 0px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .UX-research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 86px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .researcharrow {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    top: 45%;
+    //left: 551px;
+    object-fit: cover;
+  }
+
+  .photo-effects .research-2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    position: relative;
+    align-self: stretch;
+    //width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    
+  }
+
+  .photo-effects .originalphotoimg {
+    position: relative;
+    width: 600px;
+    //height: 443px;
+    margin-left: -80px;
+    object-fit: cover;
+    rotate: -2.5deg;
+    border: 14px solid #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 40px 40px 20px -10px rgba(138, 81, 81, 0.1);
+
+  }
+
+  .photo-effects .text-2 {
+    display: flex;
+    flex-direction: column;
+    width: 570.37px;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 24px 0px 0px;
+    position: relative;
+  }
+
+  .photo-effects .text-wrapper-10 {
+    position: relative;
+    width: 212px;
+    margin-top: -1.00px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .photo-effects .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+  }
+
+  .photo-effects .research-3 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 0px 0px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-3 {
+    position: relative;
+    width: 530px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    line-height: 28px;
+  }
+
+  .photo-effects .text-wrapper-12 {
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0.01px;
+  }
+
+  .photo-effects .researchcoloredphoto-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    width: 540px;
+  }
+
+  .photo-effects .researchcoloredphoto {
+    position: relative;
+    width: 600px;
+    //height: 465.31px;
+    margin-bottom: -50.00px;
+    object-fit: cover;
+    rotate: 2.5deg;
+    border: 14px solid #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 40px 40px 20px -10px rgba(138, 81, 81, 0.1);
+  }
+
+  .photo-effects .wow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 100px;
+    margin-top:80px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-wrapper-13 {
+    position: relative;
+    width: 800px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+
+  .photo-effects .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .images {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .img-3 {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .photo-effects .wowarrow {
+    position: relative;
+    width: 92px;
+    height: 31px;
+    object-fit: cover;
+  }
+
+  .photo-effects .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+
+  .photo-effects .solution {
+    display: flex;
+    max-width: 1200px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 80px 0px 160px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .seperator {
+    display: flex;
+    flex-direction: column;
+    width: 1025px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    //right:40px;
+  }
+
+  .photo-effects .separator {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: #e6d1cd;
+  }
+
+  .photo-effects .left {
+    display: flex;
+    flex-direction: column;
+    width: 522px;
+    align-items: center;
+    padding: 104px 0px 0px 40px;
+    position: relative;
+  }
+
+  .photo-effects .text-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-wrapper-15 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
+  .photo-effects .circles {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .circle-x {
+    position: relative;
+    width: 204px;
+    //height: 223px;
+    object-fit: cover;
+  }
+
+  .photo-effects .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0px 24px 0px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .photo-effects .image {
+    display: flex;
+    flex-direction: column;
+    width: 599px;
+    height: 529px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+
+  .photo-effects .image-mobile {
+    display: none;
+  }
+
+  .photo-effects .rectangle {
+    position: relative;
+    width: 668px;
+    height: 687px;
+    margin-bottom: -158.00px;
+    margin-right: -69.00px;
+  }
+
+  .photo-effects .text-5 {
+    display: flex;
+    flex-direction: column;
+    max-width: 668px;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0px 0px 0px 80px;
+    position: relative;
+    width: 85%;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .bottom {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 164px;
+    padding: 80px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .features {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .phones {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .component {
+    display: flex;
+    width: 950px;
+    height: 626px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+
+  .photo-effects .phonesvideo {
+    position: relative;
+    width: 100%;
+    height: 718px;
+ 
+  }
+
+  .photo-effects .texts {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 177px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .photo-effects .bottom-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .we-released-the {
+    position: relative;
+    width: 562px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    text-align: justify;
+    text-align-last: center;
+
+  }
+
+  .photo-effects .text-wrapper-17 {
+    letter-spacing: -0.01px;
+  }
+
+  .photo-effects .text-wrapper-18 {
+    letter-spacing: 0.08px;
+  }
+
+  .photo-effects .reactions {
+    display: flex;
+    flex-direction: column;
+    //width: 1140px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  
+
+  .photo-effects .base {
+    position: relative;
+    width: 1140px;
+    height: 404px;
+  }
+
+  .photo-effects .reactionsvideo {
+    position: relative;
+    height: 360px;
+
+  }
+
+  .photo-effects .coverage {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 108px;
+    position: relative;
+    flex: 0 0 auto;
+          align-items: center;
+
+  }
+
+  .photo-effects .content-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-6 {
+    display: flex;
+    flex-direction: column;
+    width: 562px;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 0px 0px 48px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .text-wrapper-19 {
+    position: relative;
+    align-self: stretch;
+    font-weight: 700;
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+
+  .photo-effects .text-wrapper-20 {
+    letter-spacing: 0.10px;
+  }
+
+  .photo-effects .text-wrapper-21 {
+    letter-spacing: -0.05px;
+  }
+
+  .photo-effects .stats {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 0px 16px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .photo-effects .appstore {
+    position: relative;
+    width: 572px;
+    height: 609px;
+    object-fit: cover;
+  }
+
+  .photo-effects .coverage-x {
+    position: relative;
+    width: 475px;
+    height: 177.5px;
+    object-fit: cover;
+  }
+
+  .photo-effects .text-wrapper-22 {
+    position: relative;
+    width: 100%;
+    height: 233px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.07px;
+    line-height: 28px;
+    align-self: center;
+  }
+
+  #backgroundmobileVideo {
+    display: none;
+  }
+
+}
